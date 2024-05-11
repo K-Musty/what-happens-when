@@ -178,10 +178,8 @@ Parse URL
 Is it a URL or a search term?
 -----------------------------
 
-When no protocol or valid domain name is given the browser proceeds to feed
-the text given in the address box to the browser's default web search engine.
-In many cases the URL has a special piece of text appended to it to tell the
-search engine that it came from a particular browser's URL bar.
+When the browser encounters an incomplete URL or lacks a valid domain name, it automatically redirects the input from the address bar to the default web search engine.
+Often, the URL is augmented with additional text to indicate its source from a specific browser's address bar.
 
 Convert non-ASCII Unicode characters in the hostname
 ------------------------------------------------
